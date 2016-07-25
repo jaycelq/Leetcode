@@ -10,6 +10,7 @@ public:
     bool isValid(string s) {
         stack<char> stack;
         map<char, char> pair_map;
+        
         pair_map[')'] = '(';
         pair_map[']'] = '[';
         pair_map['}'] = '{';
